@@ -1,0 +1,64 @@
+.a{
+	position:relative;
+	top:80px;
+	width:20%;
+	padding: 10px;
+	background-color: beige;
+	transform: rotate(7deg);
+	transform: skewY(5deg);
+}
+
+#covid19{
+	text-align: center;
+	width: 200px;
+	height: auto;
+	padding: 20px;
+	position: fixed;
+	top: 80px;
+	right:0px;
+	margin-bottom: 30px;
+	animation-name: covidAnimacija;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+
+input[type="text"],input[type="checkbox"],input[type="radio"]{
+	margin:15px;
+	background: yellow;
+}
+input[type="submit"],input[type="reset"],{
+
+	font-weight: bold ;
+	color:white;
+	padding: 10px;
+}
+input[type="submit"]{
+	background:green;
+}
+input[type="reset"]{
+	background: red;
+}
+input[type="reset"]:hover,input[type="submit"]:hover{
+
+	box-shadow:7px,7px silver;
+
+}
+
+#covid19{
+	text-align: center;
+	width: 200px;
+	height: auto;
+	padding: 20px;
+	position: fixed;
+	top: 80px;
+	margin-bottom: 30px;
+	animation-name:covidAnimacija;
+	animation-duration:10s;
+	animation-iteration-count:infinite;
+
+
+
+
+}
+
+
